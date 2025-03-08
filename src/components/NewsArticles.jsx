@@ -1,21 +1,25 @@
 import React from "react";
+import Healthhygenic from "../assets/HealthHygenic.svg"
+import SaltRichDiet from "../assets/SaltRichDiet.svg"
+import MuchGoOnDiet from "../assets/MuchGoOnDiet.svg"
+import Vector2 from "../assets/Vector2.svg";
 
 const NewsArticles = () => {
   const articles = [
     {
-      image: "/path-to-health-image.png",
+      image: `${Healthhygenic}`,
       author: "Anita Jackson",
       title: "Health and Hygiene",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor incididunt.",
     },
     {
-      image: "/path-to-salt-image.png",
-      author: "Anita Jackson",
+      image: `${SaltRichDiet}`,
+      author:"Anita Jackson",
       title: "Salt-rich diet gets a lashing",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor incididunt.",
     },
     {
-      image: "/path-to-diet-image.png",
+      image: `${MuchGoOnDiet}`,
       author: "Anita Jackson",
       title: "Much go on diet",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor incididunt.",
@@ -23,19 +27,22 @@ const NewsArticles = () => {
   ];
 
   return (
-    <div className="bg-white py-16 px-6 md:px-12 lg:px-20 text-center">
-      <h2 className="text-blue-900 text-3xl font-bold mb-4 underline underline-offset-4">News & Articles</h2>
-      <p className="text-gray-600 max-w-2xl mx-auto mb-10">
+    <div className="bg-white py-16 px-6 md:px-12 lg:px-20 text-center w-[97%]">
+      
+        <h2 className="font-inter font-semibold text-[42px] leading-[125%] text-[#011632] tracking-normal text-center capitalize">News & Articles</h2>
+        <img src={Vector2} alt="" className="w-[322px] mx-auto  mb-5 " />
+      <p className="font-inter font-normal text-[18px] text-[#3C4959] mx-auto mb-10 text-center capitalize xl:w-[650px]">
         We use only the best quality materials on the market in order to provide the best products to our patients.
       </p>
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-3  gap-8">
         {articles.map((article, index) => (
-          <div key={index} className="bg-blue-100 p-6 rounded-lg shadow-md">
-            <img src={article.image} alt={article.title} className="w-full rounded-lg mb-4" />
-            <p className="text-gray-800 font-semibold mb-2">~{article.author}</p>
-            <h3 className="text-lg font-bold text-gray-900 mb-2">{article.title}</h3>
-            <p className="text-gray-600 mb-4">{article.description}</p>
-            <button className="bg-blue-900 text-white px-6 py-2 rounded">know more</button>
+          <div key={index} className="bg-[#E6F6FE] p-8 rounded-[12px] lg:h-[557px]  shadow-md">
+            <img src={article.image} alt={article.title} className="w-full h-[230px]  rounded-[10px] mb-4" />
+            <p className="text-[#011632] font-normal text-[16px] mt-6 mb-6 mr-7 text-right">~{article.author}</p>
+           
+            <h3 className="text-[18px] font-[500] font-inter text-[#011632] mb-2 text-left ml-7">{article.title}</h3>
+            <p className="text-[#3C4959] w-[250px] mb-4 text-left ml-7">{article.description}</p>
+            <button className="bg-[#011632] w-[286px] font-[500]  text-center text-[16px] h-[35px] text-[#FFFFFF] px-6 py-1 rounded-[5px]">know more</button>
           </div>
         ))}
       </div>

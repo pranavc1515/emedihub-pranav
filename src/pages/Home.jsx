@@ -4,6 +4,7 @@ import UserDoctorCards from '../components/UserDoctorCards';
 import OurServices from './OurServices';
 import DoctorConsultation from '../components/DoctorConsultation ';
 import NewsArticles from '../components/NewsArticles';
+import TestimonialsSlider from '../components/Testimonials';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <OurServices />
       <DoctorConsultation />
       <NewsArticles />
+      <TestimonialsSlider />
     </div>
   );
 };
