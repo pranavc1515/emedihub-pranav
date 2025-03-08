@@ -5,6 +5,7 @@ import OurServices from './OurServices';
 import DoctorConsultation from '../components/DoctorConsultation ';
 import NewsArticles from '../components/NewsArticles';
 import TestimonialsSlider from '../components/Testimonials';
+import TeamSection from '../components/TeamSection';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <DoctorConsultation />
       <NewsArticles />
       <TestimonialsSlider />
+      <TeamSection />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import images3 from '../assets/image3.svg';
 import images4 from '../assets/image4.svg';
 import vector from  '../assets/Vector.svg'
 import Navbar from '../pages/Navbar';
+import FooterSection from '../pages/FooterSection';
 
 const MainLayout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ console.log(currentImageIndex, "currentImageIndex")
       }}
     >
       <Navbar />
-      <div className="ml-[40px] px-6 py-8  ">
+      <div className="ml-[40px]   ">
         <h1 className="text-[64px] font-bold w-[735px] text-[#011632]">
           Your Health File, Simplified!!!
         </h1>
@@ -58,9 +59,12 @@ console.log(currentImageIndex, "currentImageIndex")
       </div>
 
     </header>
-    <main className="px-6 py-8">
+    <main className="px-0 py-0">
       {children}  
     </main>
+    <footer>
+    <FooterSection />
+    </footer>
   </div>
   );
 };
