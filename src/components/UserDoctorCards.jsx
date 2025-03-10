@@ -10,7 +10,7 @@ const UserDoctorCards = () => {
     <div className="flex flex-col lg:flex-row justify-center items-center gap-6 p-4 ">
    
       <div
-        className="relative bg-gradient-to-r from-white to-blue-100 rounded-lg shadow-md p-6 flex items-center w-full max-w-[48.5%] h-[150px] bg-cover bg-right"
+        className="relative bg-gradient-to-r from-white to-blue-100 rounded-lg shadow-md p-6 flex items-center w-full xl:max-w-[48.5%] h-[150px] bg-cover bg-right"
         style={{ backgroundImage: `url(${UserDoctorCard})` }}
       >
         {/* Left Content */}
@@ -25,7 +25,7 @@ const UserDoctorCards = () => {
 
     
       <div
-        className="relative bg-gradient-to-r from-white to-blue-100 rounded-lg shadow-md p-6 flex items-center w-full max-w-[48.5%] h-[150px] bg-cover bg-right "
+        className="relative bg-gradient-to-r from-white to-blue-100 rounded-lg shadow-md p-6 flex items-center w-full xl:max-w-[48.5%] h-[150px] bg-cover bg-right "
         style={{ backgroundImage: `url(${UserDoctorCard})` }}
       >
        <div className="hidden lg:flex absolute top-[-75px] right-[-23px]  flex-col space-y-2">

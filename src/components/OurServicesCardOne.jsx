@@ -18,7 +18,7 @@ function OurServicesCardOne() {
          
       
             {/* Description */}
-             <div className='flex flex-col items-center'>
+             <div className='flex flex-col w-full items-center'>
              <p className="text-gray-600 text-lg mt-4">
                Comprehensive Care at Your Fingertips!
              </p>
@@ -30,7 +30,7 @@ function OurServicesCardOne() {
     
           {/* Section: Book Your Appointment */}
           <div className="flex flex-col lg:flex-row justify-between items-center mt-12 mb-[120px]  w-full">
-            {/* Text Content */}
+           
             <div className="lg:w-1/2 text-left">
               <h3 className="text-[42px] font-semibold text-[#011632]">
                 Book Your Appointment
@@ -45,20 +45,20 @@ function OurServicesCardOne() {
               </button>
             </div>
     
-            {/* Image */}
+          
             <div className=" flex justify-center relative mt-6 lg:mt-0  ">
-              <div className="bg-blue-200  p-2 absolute    w-[413px] h-[326px] top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
+              <div className="bg-blue-200  p-2 absolute   w-full  lg:w-[413px] h-[326px] lg:top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
               <img
                 src={maskGroup}
                 alt="Doctor Writing"
-                className="rounded-lg shadow-md w-[410px] -left-[35px]  h-[326px] object-cover relative top-[35px] "
+                className="rounded-lg shadow-md w-[410px] lg:-left-[35px]  h-[326px] object-cover relative lg:top-[35px] "
               />
             </div>
           </div>
     
           {/* Section: Online Doctor Consultation */}
           <div className=" bg-blue-100 p-8 rounded-lg flex flex-col lg:flex-row items-center w-full xl:h-[554px]" >
-            {/* Image */}
+         
             <div className="lg:w-1/2 flex justify-center">
               <img
                 src={OnlineConsultation}
@@ -67,18 +67,18 @@ function OurServicesCardOne() {
               />
             </div>
     
-            {/* Text Content */}
-            <div className="lg:w-1/2 text-left lg:pl-8 mt-6 lg:mt-0">
-              <h3 className="text-[42px] font-semibold text-[#011632]">
+        
+            <div className="lg:w-1/2   lg:pl-8 mt-6 lg:mt-0">
+              <h3 className="text-[32px] font-semibold text-[#011632]">
                 Online Doctor Consultation
               </h3>
               <img src={Vector2} alt="" className="xl:ml-[140px] mt-[-15px]" />  
-              <p className="text-[#3C4959] text-[18px] font-normal w-[444px] mt-4">
+              <p className="text-[#3C4959] text-[18px] font-normal xl:w-[444px] mt-4">
                 Connect with experienced doctors anytime, anywhere. Get expert 
                 medical advice, prescriptions, and follow-ups from the comfort of your home.
               </p>
     
-              {/* Features List */}
+              
               <ul className="mt-[30px] space-y-4">
                 <li className="flex items-center font-[500] text-[18px] text-[#3C4959]">
                   <img src={ShieldDone} alt='' className=" mr-2" /> 24/7 Online Consultation

@@ -25,17 +25,17 @@ const OurServicesCardForth = () => {
     
             {/* Image */}
             <div className=" flex justify-center relative mt-6 lg:mt-0  ">
-              <div className="bg-blue-200  p-2 absolute    w-[413px] h-[326px] top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
+              <div className="bg-blue-200  p-2 absolute    w-[413px] h-[326px] xl:top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
               <img
                 src={BootCamp}
                 alt="Doctor Writing"
-                className="rounded-lg shadow-md w-[410px] -left-[35px]  h-[326px] object-cover relative top-[35px] "
+                className="rounded-lg shadow-md xl:w-[410px] xl:-left-[35px]  h-[326px] object-cover relative xl:top-[35px] "
               />
             </div>
           </div>
     
           {/* Section: Online Doctor Consultation */}
-          <div className=" bg-blue-100 p-8 rounded-lg flex flex-col lg:flex-row items-center w-full xl:h-[554px]">
+          <div className=" bg-blue-100 xl:p-8 rounded-lg flex flex-col lg:flex-row items-center w-full xl:h-[554px]">
             {/* Image */}
             <div className="lg:w-1/2 flex justify-center">
               <img
@@ -51,7 +51,7 @@ const OurServicesCardForth = () => {
               Fitness Challenges
               </h3>
               <img src={Vector2} alt="" className="xl:ml-[30px] mt-[-20px]" />
-              <p className="text-[#3C4959] text-[18px] font-normal w-[444px] mt-4">
+              <p className="text-[#3C4959] text-[18px] font-normal xl:w-[444px] mt-4">
               Take on exciting fitness challenges, track your progress, and stay motivated with a supportive community. Achieve your goals with personalized milestones, rewards, and a motivating group environment.
               Join the challenge and transform your fitness journey!
               </p>

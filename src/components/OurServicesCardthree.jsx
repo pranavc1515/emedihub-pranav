@@ -31,11 +31,11 @@ const OurServicesCardthree = () => {
 
         {/* Image */}
         <div className=" flex justify-center relative mt-6 lg:mt-0  ">
-          <div className="bg-blue-200  p-2 absolute    w-[413px] h-[326px] top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
+          <div className="bg-blue-200  xl:p-2 absolute    w-[413px] h-[326px] top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
           <img
             src={healthinsurance}
             alt="Doctor Writing"
-            className="rounded-lg shadow-md w-[410px] -left-[35px]  h-[326px] object-cover relative top-[35px] "
+            className="rounded-lg shadow-md xl:w-[410px] xl:-left-[35px]  h-[326px] object-cover relative xl:top-[35px] "
           />
         </div>
       </div>
@@ -57,7 +57,7 @@ const OurServicesCardthree = () => {
             Online Fitness Classes
           </h3>
           <img src={Vector2} alt="" className="xl:ml-[60px] mt-[-15px] " />
-          <p className="text-[#3C4959] text-[18px] font-normal w-[444px] mt-4">
+          <p className="text-[#3C4959] text-[18px] font-normal xl:w-[444px] mt-4">
             Join expert-led virtual fitness sessions, including yoga, strength
             training, and wellness programs, for a healthier lifestyle.
           </p>

@@ -13,7 +13,7 @@ function OurServicesCardTwo() {
         <div className="lg:w-1/2 text-left">
           <h3 className="text-[42px] font-semibold text-[#011632]">Pharmacy</h3>
           <img src={Vector} alt="" className="w-[200px]" />
-          <p className="text-[#3C4959] font-normal text-[18px] 2xl:w-[687px]  mt-4">
+          <p className="text-[#3C4959] font-normal text-[18px] xl:w-[687px]  mt-4">
             Order prescription and OTC medicines online with ease. Upload your
             prescription, place an order, and get genuine medicines delivered to
             your doorstep—fast, secure, and hassle-free. Stay healthy with 24/7
@@ -26,12 +26,12 @@ function OurServicesCardTwo() {
         </div>
 
         {/* Image */}
-        <div className=" flex justify-center relative mt-6 lg:mt-0  ">
-          <div className="bg-blue-200  p-2 absolute    w-[413px] h-[326px] top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
+        <div className=" flex justify-center  relative mt-6 lg:mt-0  ">
+          <div className="bg-blue-200  p-2 absolute   w-[413px] h-[326px] xl:top-[-2px] rounded-[10px] bg-[linear-gradient(52.56deg,_rgba(37,_180,_248,_0)_0%,_rgba(37,_180,_248,_0.473958)_64.42%,_#25B4F8_126.21%)] "></div>
           <img
             src={maskGroup}
             alt="Doctor Writing"
-            className="rounded-lg shadow-md w-[410px] -left-[35px]  h-[326px] object-cover relative top-[35px] "
+            className="rounded-lg shadow-md xl:w-[410px] xl:-left-[35px]  h-[326px] object-cover relative xl:top-[35px] "
           />
         </div>
       </div>
@@ -53,7 +53,7 @@ function OurServicesCardTwo() {
             Book Lab Tests Online
           </h3>
 <img src={Vector2} alt="" className="xl:ml-[30px] mt-[-15px]" />  
-          <p className="text-[#3C4959] text-[18px] font-normal w-[444px] mt-4">
+          <p className="text-[#3C4959] text-[18px] font-normal xl:w-[444px] mt-4">
             Schedule diagnostic tests at trusted labs with home sample
             collection, real-time updates, and fast, reliable results. Get
             tested from the comfort of your home with professional sample
